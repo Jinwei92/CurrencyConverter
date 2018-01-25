@@ -1,0 +1,7 @@
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\MethodTest\bin\Debug\MethodTest.exe.config
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\MethodTest\bin\Debug\MethodTest.exe
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\MethodTest\bin\Debug\MethodTest.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\MethodTest\obj\Debug\MethodTest.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\MethodTest\obj\Debug\MethodTest.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\MethodTest\obj\Debug\MethodTest.exe
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\MethodTest\obj\Debug\MethodTest.pdb

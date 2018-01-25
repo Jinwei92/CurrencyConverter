@@ -82,6 +82,42 @@ namespace CurrencyConverter
             }
             
         }
+        private List<DateTime> ObtainGapDates(DateTime start, DateTime end)
+        {
+            List<DateTime> Dates = new List<DateTime>();
+            for (DateTime date = start; date <= end; date = date.AddDays(1))
+            {
+                Dates.Add(date);
+            }
+            return Dates;
+        }
+        public List<Rates> GetRatesForLastMonth(string currencyCode1, string currencyCode2)
+        {
+            DateTime endDate = DateTime.Now;//today's date
+            List<DateTime> Dates = ObtainGapDates(endDate.AddDays(-30), endDate);//all dates within 30 days
+            List<Rates> returnRates = new List<Rates>();
+            List<Root> roots = new List<Root>();
+            foreach(DateTime date in Dates)
+            {
+                string rate = HttpGet(remoteApiForHistoricalRate + date.ToString("yyyy-MM-dd"), String.Format("base={0}", currencyCode1));
+                roots.Add(JsonConvert.DeserializeObject<Root>(rate));
+            }
+            foreach(Root root in roots)
+            {
+                returnRates.Add(root.Rates);
+            }
+            foreach(Rates rate in returnRates)
+            {
+                foreach(System.Reflection.PropertyInfo p in rate.GetType().GetProperties())
+                {
+                    if(p.Name == currencyCode1)
+                    {
+                        p.SetValue(rate, 1); //convert rate should be 1 when converting to the same currency
+                    }
+                }
+            }
+            return returnRates;
+        }
     }
     public class Rates
     {

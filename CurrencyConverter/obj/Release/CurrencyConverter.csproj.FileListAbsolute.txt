@@ -31,3 +31,20 @@ F:\C#\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter.csproj.C
 F:\C#\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter.exe
 F:\C#\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter.pdb
 F:\C#\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\bin\Release\CurrencyConverter.exe.config
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\bin\Release\CurrencyConverter.exe
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\bin\Release\CurrencyConverter.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\bin\Release\Newtonsoft.Json.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\bin\Release\Newtonsoft.Json.xml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\MainWindow.g.cs
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\App.g.cs
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter_MarkupCompile.cache
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter_MarkupCompile.lref
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\MainWindow.baml
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter.g.resources
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter.Properties.Resources.resources
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter.exe
+\\Mac\Home\Documents\Visual Studio 2017\Projects\CurrencyConverter\CurrencyConverter\obj\Release\CurrencyConverter.pdb

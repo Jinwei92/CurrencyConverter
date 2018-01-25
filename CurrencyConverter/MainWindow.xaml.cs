@@ -34,6 +34,7 @@ namespace CurrencyConverter
             try
             {
                 targetedAmount.Text = (double.Parse(baseAmount.Text) * double.Parse(latestRate)).ToString();
+                List<Rates> rates = rr.GetRatesForLastMonth(baseCurrency.Text, targetCurrency.Text);
             }
             catch
             {
